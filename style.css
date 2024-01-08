@@ -1,0 +1,55 @@
+body{
+    background-color: beige ;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: cursive;
+}
+h6{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: cursive;
+}
+#colorName{
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 60px;
+}
+#box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.btn{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+#diffText{
+    text-align: center;
+    margin-top: 10px;
+}
+#diff{
+    text-align: center;
+    margin-top: 10px;
+}
+#re{
+    text-align: center;
+    margin-top: 10px;
+}
+#replay{
+    height: 60px;
+    width: 120px;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ffc54d;
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HEX GAME</title>
+    <link rel="shortcut icon" type="image/x-icon" href=""/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Guess the color</h1>
+    <p id = "colorName">(R,G,B)</p>
+
+<div id="box">
+    <button class="btn" id=0 onclick="guess()"></button>
+    <button class="btn" id=1 onclick="guess()"></button>
+    <button class="btn" id=2 onclick="guess()"></button>
+</div>
+    <div id="diffText">
+        <h6>DIFFICULTY</h6>
+    </div>
+    <div id="diff">
+        <button class="difficulty" id=4 onclick="selectDiffilucty(3)">3</button>
+        <button class="difficulty" id=5 onclick="selectDiffilucty(4)">4</button>
+        <button class="difficulty" id=6 onclick="selectDiffilucty(5)">5</button>
+    </div>
+<div id="re">
+    <button id="replay" onclick="replay()"> Replay </button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
