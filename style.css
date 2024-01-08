@@ -7,6 +7,18 @@ h1{
     font-weight: bold;
     font-family: cursive;
 }
+h2{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: cursive;
+}
+h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: cursive;
+}
 h6{
     text-align: center;
     font-size: medium;
@@ -52,4 +64,35 @@ h6{
     cursor: pointer;
     background-color: #ffc54d;
 
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.navbar {
+    background: rgb(255, 230, 130);
+
+}
+.navbar a {
+    color: #000000;
+    transition: 0.2s all;
+    font-size: 30px;
+    text-align: center;
 }

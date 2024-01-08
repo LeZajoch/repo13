@@ -44,3 +44,4 @@ function replay(){
     window.location.reload();
 }
 
+let ColorObject = {red:Math.floor((Math.random()) *256), green:Math.floor((Math.random()) *256),blue:Math.floor((Math.random()) *256)}
